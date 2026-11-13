@@ -33,3 +33,9 @@ Set each interface and set for a different network
 "nameif outside" gives the interface a logcial name and every NAT rule and ACL refers to interfaces by that name. 
 
 security-level 0 / 100 / 50 / 20: how much the ASA trusts each zone. This sets the default traffic behavior before you write any rules:
+
+Step 2: Configure ASA as an Internet gateway, enable Internet access
+
+<img width="621" height="188" alt="image" src="https://github.com/user-attachments/assets/a3322495-c322-4c02-84cf-3f6b04c53ffc" />
+
+
